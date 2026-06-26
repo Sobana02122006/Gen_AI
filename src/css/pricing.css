@@ -1,0 +1,56 @@
+.pricing-section{
+    background:#081420;
+    padding:100px 0;
+}
+
+.pricing-controls{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:50px;
+    flex-wrap:wrap;
+}
+
+.pricing-controls button{
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    background:#16213e;
+    color:white;
+}
+
+.pricing-controls button.active{
+    background:#00E5FF;
+    color:black;
+}
+
+.pricing-controls select{
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+}
+
+.price-card{
+    background:#16213e;
+    border-radius:20px;
+    padding:35px;
+    transition:.4s;
+    height:100%;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+}
+
+.popular{
+    border:2px solid #00E5FF;
+}
+
+.price-card h1{
+    color:#00E5FF;
+    margin:20px 0;
+}
+
+.price-card li{
+    margin:12px 0;
+}

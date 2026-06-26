@@ -1,0 +1,40 @@
+.custom-navbar{
+    background:#0b1020;
+    padding:18px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+.logo{
+    font-size:28px;
+    color:white !important;
+}
+
+.logo span{
+    color:#00e5ff;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:20px;
+    transition:.3s;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#00e5ff !important;
+}
+
+.btn-start{
+    background:#6C63FF;
+    color:white;
+    border-radius:30px;
+    padding:10px 28px;
+    border:none;
+    transition:.3s;
+}
+
+.btn-start:hover{
+    background:#00e5ff;
+    color:black;
+    transform:translateY(-2px);
+}

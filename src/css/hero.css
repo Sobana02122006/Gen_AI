@@ -1,0 +1,59 @@
+.hero-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#081420,#12213d,#081420);
+    padding-top:120px;
+}
+
+.hero-title{
+    font-size:55px;
+    font-weight:700;
+    line-height:1.3;
+}
+
+.hero-title span{
+    color:#00E5FF;
+}
+
+.hero-description{
+    margin:25px 0;
+    font-size:18px;
+    color:#d1d5db;
+}
+
+.hero-card{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    animation:float 3s infinite ease-in-out;
+}
+
+.card-box{
+    background:#132743;
+    padding:20px;
+    margin-top:20px;
+    border-radius:15px;
+}
+
+.card-box h5{
+    color:#00E5FF;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-12px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
